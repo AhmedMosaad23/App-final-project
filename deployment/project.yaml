@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: mosaad-container
-          image: gcr.io/ahmed-mossad/app
+          image: ahmedmosaad/project:latest
           ports:
             - containerPort: 8000
         - name: redis-container
